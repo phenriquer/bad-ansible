@@ -1,5 +1,0 @@
----
-- name: Write direct ssh.cfg
-  template:
-    src: direct.cfg.j2
-    dest: "{{ dynamic_ssh_config_path }}"
